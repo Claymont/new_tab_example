@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "extension_name",
+  "version": "0.1",
+  "description": "Description here",
+  "chrome_url_overrides": {
+    "newtab": "extension_name.html"
+  },
+  "applications": {
+    "gecko": {
+      "id": "extension_name@extension_name",
+      "strict_min_version": "67.0"
+    }
+  }
+}
